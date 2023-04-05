@@ -5,7 +5,7 @@ let body = document.getElementById('body');
 
 
 btn.addEventListener('click', function(){
-    spans.classList.add('butt')
+    spans.classList.toggle('butt')
     cont.style.background = 'rgb(84, 220, 235)';
     body.style.color = 'black';
 })
